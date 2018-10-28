@@ -4,7 +4,8 @@
   "description": "This NodeJS server serves clients Arduino(Client 1) and an application(Client 2) that is to control the Arduino's working",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [
     "Home",
@@ -18,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.4",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5"
   }
 }
