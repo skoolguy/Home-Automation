@@ -6,7 +6,7 @@ String password="WIFI_PASSWORD";
 
 SoftwareSerial esp(3, 2);// RX, TX
 
-String server = "localhost"; //Your Host 
+String server = "hostaddress"; //Your Host 
 String uri = "/GET_LIGHT_STATUS"; // Your URI
 
 int RED_BULB=5; 
