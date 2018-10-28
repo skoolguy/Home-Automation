@@ -8,4 +8,4 @@ The server is a NodeJS server that serves the clients associated with this proje
 
 ## 2) arduinoClient
 
-This is a client in this project. The arduino which is connected with the ESP8266 will act as the end-actioner. This will do the switching ON/OFF of the lights.
+This is a client in this project. The arduino which is connected with the ESP8266 which will act as the end-actioner. This will do the switching ON/OFF of the lights.
