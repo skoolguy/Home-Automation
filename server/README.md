@@ -4,17 +4,17 @@ The server that handles the requests of clients to set the lights on and off
 
 # To set up the server
 
->> nodeJS is a prerequisite, install it 
->> clone the repository
->> cd into server
+1) nodeJS is a prerequisite, install it 
+2) clone the repository
+3) cd into server
 ```
     $ cd server
 ```
->> install all the npm dependencies 
+4) install all the npm dependencies 
 ```
     $ npm install
 ```
->> run the node server
+5) run the node server
 ```
     $ node app.js
 ```
