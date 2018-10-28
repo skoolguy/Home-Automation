@@ -1,0 +1,23 @@
+{
+  "name": "home-automation-server",
+  "version": "1.0.0",
+  "description": "This NodeJS server serves clients Arduino(Client 1) and an application(Client 2) that is to control the Arduino's working",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Home",
+    "Automation",
+    "arduino",
+    "node",
+    "NodeJS",
+    "esp8266"
+  ],
+  "author": "Ajmal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4"
+  }
+}
