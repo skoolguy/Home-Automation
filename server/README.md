@@ -2,6 +2,23 @@
 
 The server that handles the requests of clients to set the lights on and off
 
+# To set up the server
+
+>> nodeJS is a prerequisite, install it 
+>> clone the repository
+>> cd into server
+```
+    $ cd server
+```
+>> install all the npm dependencies 
+```
+    $ npm install
+```
+>> run the node server
+```
+    $ node app.js
+```
+
 # Services
 
 ## 1) Service to set the status of the lights
@@ -13,10 +30,10 @@ The server that handles the requests of clients to set the lights on and off
 
 request body :
 ```
-{
-	"red" : 1,
-	"yellow" : 0
-}
+    {
+        "red" : 1,
+        "yellow" : 0
+    }          
 ```
 
 ### Response 
@@ -25,10 +42,10 @@ request body :
 
 response body :
 ```
-{
-    "RED_BULB": 1,
-    "YELLOW_BULB": 0
-}
+    {
+        "RED_BULB": 1,
+        "YELLOW_BULB": 0
+    }
 ```
 
 ## 2) Service to receive the current status of the lights
@@ -43,8 +60,8 @@ response body :
 
 response body :
 ```
-{
-    "RED_BULB": 1,
-    "YELLOW_BULB": 0
-}
+    {
+        "RED_BULB": 1,
+        "YELLOW_BULB": 0
+    }
 ```
